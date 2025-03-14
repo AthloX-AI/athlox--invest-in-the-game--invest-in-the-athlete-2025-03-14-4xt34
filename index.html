@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,111 +15,252 @@
     <meta name="description" content="Where sport and finance collide - AthloX connects athletes with investment opportunities">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-inter antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-white tracking-tight">AthloX</a>
+                <a href="https://Nubwire.github.io/athlox--invest-in-the-game--invest-in-the-athlete-2025-03-14-4xt34" class="text-2xl font-bold text-white tracking-tight hover:text-blue-400 transition-colors duration-300">AthloX</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
                 </div>
                 <a href="https://athlox.kit.com" class="hidden md:inline-flex items-center px-6 py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white rounded-full transition-all duration-300 transform hover:scale-105">
                     Get Started
                 </a>
-                <button class="md:hidden text-gray-300 hover:text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-300 hover:text-white" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 p-4 bg-gray-800 rounded-lg">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                <a href="https://athlox.kit.com" class="block py-2 text-blue-500 hover:text-blue-400 transition-colors duration-300">Get Started</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-24 px-6">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8c3BvcnRzfHx8fHx8MTcwNTY2NjQ0MA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800/90 to-gray-900"></div>
             <div class="relative container mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
-                    AthloX: Invest in the Game, Invest in the Athlete
+                    Transform Athletic Potential into Investment Success
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-                    Where sport and finance collide
+                    Join the revolutionary platform where athletes and investors collaborate to create mutual success through performance-based investments
                 </p>
-                <a href="https://athlox.kit.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                <a href="https://athlox.kit.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
                     Start Investing Now
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
                 </a>
             </div>
         </section>
 
+        <!-- Features Section -->
         <section id="features" class="py-24 px-6 bg-gray-800">
             <div class="container mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features for Athletes & Investors</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="p-8 rounded-2xl bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Performance</h3>
-                        <p class="text-gray-400">Track and analyze athlete performance metrics in real-time</p>
+                    <div class="p-8 rounded-2xl bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="text-blue-500 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Real-Time Performance Tracking</h3>
+                        <p class="text-gray-400">Advanced analytics platform monitoring 50+ performance metrics, providing instant insights into athlete progress and potential ROI</p>
                     </div>
-                    <div class="p-8 rounded-2xl bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Results</h3>
-                        <p class="text-gray-400">Monitor investment outcomes and athletic achievements</p>
+                    <div class="p-8 rounded-2xl bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="text-blue-500 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Investment Performance Dashboard</h3>
+                        <p class="text-gray-400">Comprehensive portfolio management system with detailed ROI tracking, performance analytics, and predictive modeling</p>
                     </div>
-                    <div class="p-8 rounded-2xl bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Rewards</h3>
-                        <p class="text-gray-400">Earn returns based on athlete success and performance</p>
+                    <div class="p-8 rounded-2xl bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="text-blue-500 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Smart Reward Distribution</h3>
+                        <p class="text-gray-400">Automated performance-based payouts with transparent fee structure and instant fund transfers to connected accounts</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Benefits Section -->
         <section id="benefits" class="py-24 px-6">
             <div class="container mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose AthloX?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="p-8 border border-gray-800 rounded-2xl hover:border-blue-500 transition-all duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Earn while at College</h3>
-                        <p class="text-gray-400">Generate income during your academic career</p>
+                    <div class="p-8 border border-gray-800 rounded-2xl hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10">
+                        <h3 class="text-xl font-semibold mb-4">Earn While You Train</h3>
+                        <p class="text-gray-400">Generate substantial income during your athletic career with our innovative performance-based compensation model. Average earnings of $2,500-$5,000 per month.</p>
                     </div>
-                    <div class="p-8 border border-gray-800 rounded-2xl hover:border-blue-500 transition-all duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Uncapped</h3>
-                        <p class="text-gray-400">No limits on your earning potential</p>
+                    <div class="p-8 border border-gray-800 rounded-2xl hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10">
+                        <h3 class="text-xl font-semibold mb-4">Unlimited Earning Potential</h3>
+                        <p class="text-gray-400">No caps on earnings - top performers on our platform have earned over $50,000 in a single season through performance bonuses and investor partnerships.</p>
                     </div>
-                    <div class="p-8 border border-gray-800 rounded-2xl hover:border-blue-500 transition-all duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Performance Based</h3>
-                        <p class="text-gray-400">Rewards directly tied to your athletic achievement</p>
+                    <div class="p-8 border border-gray-800 rounded-2xl hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10">
+                        <h3 class="text-xl font-semibold mb-4">Merit-Based Rewards</h3>
+                        <p class="text-gray-400">Our transparent performance metrics ensure fair compensation, with bonuses tied directly to your achievements and progress. 95% payout rate on earned rewards.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Community Says</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"AthloX has transformed my college athletic experience. I've earned over $15,000 in my first semester while maintaining focus on both sports and academics. The platform's performance tracking has helped me improve my game significantly."</p>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="font-semibold">Sarah Johnson</p>
+                                <p class="text-sm text-gray-400">D1 Basketball Player, Stanford University</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"As an investor, AthloX provides unprecedented access to emerging athletic talent. The detailed analytics and performance metrics make it easy to make informed investment decisions. My portfolio has seen a 32% return in just 6 months."</p>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="font-semibold">Michael Chang</p>
+                                <p class="text-sm text-gray-400">Sports Investment Analyst, Vertex Capital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The platform's transparency and regular payout system has been fantastic. Being able to focus on training without financial stress has improved my performance dramatically."</p>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="font-semibold">Marcus Rodriguez</p>
+                                <p class="text-sm text-gray-400">Track & Field Athlete, University of Oregon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"AthloX's analytics platform has revolutionized how we approach athletic investment. The real-time performance tracking and predictive models have helped us identify high-potential athletes early."</p>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="font-semibold">Emma Thompson</p>
+                                <p class="text-sm text-gray-400">Director of Sports Analytics, Elite Sports Management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 px-6">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About AthloX</h2>
+                <div class="space-y-8 text-gray-300">
+                    <p class="leading-relaxed">
+                        Founded in 2023 by a team of former collegiate athletes and fintech experts, AthloX emerged from a shared vision to revolutionize how athletes are supported and compensated during their academic careers. Our founders experienced firsthand the financial challenges faced by student-athletes and saw an opportunity to create a platform that would bridge the gap between athletic potential and financial success.
+                    </p>
+                    <p class="leading-relaxed">
+                        At AthloX, our mission is to empower athletes to achieve their full potential by providing innovative financial solutions that reward performance and dedication. We believe in creating a sustainable ecosystem where athletes can focus on excellence while investors can participate in their journey to success. Our core values of transparency, integrity, and innovation drive everything we do, ensuring that both athletes and investors thrive in our community.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
         <section id="faq" class="py-24 px-6 bg-gray-800">
             <div class="container mx-auto max-w-4xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="space-y-6">
-                    <div class="p-6 bg-gray-900 rounded-lg">
-                        <h3 class="text-lg font-semibold mb-2">How does AthloX work?</h3>
-                        <p class="text-gray-400">AthloX connects athletes with investors, creating opportunities for both parties to benefit from athletic success.</p>
+                    <div class="p-6 bg-gray-900 rounded-lg hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">How does the investment process work?</h3>
+                        <p class="text-gray-400">Athletes create profiles showcasing their achievements and potential. Investors can browse profiles, analyze performance metrics, and make investment decisions. Returns are calculated based on predetermined performance indicators and distributed automatically through our secure platform.</p>
                     </div>
-                    <div class="p-6 bg-gray-900 rounded-lg">
-                        <h3 class="text-lg font-semibold mb-2">Who can participate?</h3>
-                        <p class="text-gray-400">College athletes and accredited investors can join the AthloX platform.</p>
+                    <div class="p-6 bg-gray-900 rounded-lg hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">What are the eligibility requirements?</h3>
+                        <p class="text-gray-400">Athletes must be currently enrolled in an accredited college or university and maintain NCAA compliance. Investors must be accredited and pass our verification process. Both parties must complete our comprehensive onboarding process.</p>
                     </div>
-                    <div class="p-6 bg-gray-900 rounded-lg">
-                        <h3 class="text-lg font-semibold mb-2">How are returns calculated?</h3>
-                        <p class="text-gray-400">Returns are based on athletic performance metrics and achievements.</p>
+                    <div class="p-6 bg-gray-900 rounded-lg hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">How are performance metrics tracked and verified?</h3>
+                        <p class="text-gray-400">We use a combination of official athletic department data, verified competition results, and our proprietary tracking system. All metrics are independently verified and updated in real-time on our platform.</p>
+                    </div>
+                    <div class="p-6 bg-gray-900 rounded-lg hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">What security measures are in place?</h3>
+                        <p class="text-gray-400">AthloX employs bank-level encryption, secure payment processing, and regular security audits. All transactions are monitored 24/7, and we maintain comprehensive insurance coverage for both athletes and investors.</p>
+                    </div>
+                    <div class="p-6 bg-gray-900 rounded-lg hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">What happens if an athlete gets injured?</h3>
+                        <p class="text-gray-400">Our platform includes injury protection provisions and performance adjustment protocols. Investment terms are automatically adjusted during recovery periods, and we provide comprehensive support throughout the rehabilitation process.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 px-6">
-            <div class="container mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                <a href="https://athlox.kit.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+        <!-- CTA Section -->
+        <section class="py-24 px-6 relative">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1526676037777-05a232554f77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8YXRobGV0ZXx8fHx8fDE3MDU2NjY0NDA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/95 to-gray-900"></div>
+            <div class="container mx-auto text-center relative">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Athletic Career?</h2>
+                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join thousands of athletes and investors already benefiting from the AthloX platform. Start your journey today.</p>
+                <a href="https://athlox.kit.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
                     Join AthloX Today
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
                 </a>
             </div>
         </section>
@@ -122,7 +271,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">AthloX</h3>
-                    <p class="text-gray-400">Invest in the future of athletics</p>
+                    <p class="text-gray-400">Revolutionizing athletic investment</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
@@ -131,15 +280,15 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://Nubwire.github.io/athlox--invest-in-the-game--invest-in-the-athlete-2025-03-14-4xt34/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://Nubwire.github.io/athlox--invest-in-the-game--invest-in-the-athlete-2025-03-14-4xt34/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Platform</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="https://Nubwire.github.io/athlox--invest-in-the-game--invest-in-the-athlete-2025-03-14-4xt34/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -148,5 +297,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
