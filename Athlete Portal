@@ -1,0 +1,13 @@
+function Navbar() {
+  return (
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://graceful-twilight-65380c.netlify.app" target="_blank" rel="noopener noreferrer">Athlete Portal</a></li>
+      </ul>
+    </nav>
+  );
+}
+
+export default Navbar;
