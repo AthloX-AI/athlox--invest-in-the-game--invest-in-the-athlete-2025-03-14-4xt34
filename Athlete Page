@@ -1,0 +1,13 @@
+export default function AthletePortal() {
+  return (
+    <div>
+      <h1>Athlete Portal</h1>
+      <iframe 
+        src="https://graceful-twilight-65380c.netlify.app" 
+        width="100%" 
+        height="800px" 
+        style={{ border: "none" }}
+      />
+    </div>
+  );
+}
